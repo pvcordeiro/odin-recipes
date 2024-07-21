@@ -1,0 +1,44 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+   
+    overflow: hidden;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 44%);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid wheat;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: .5rem;
+    border: 1px solid wheat;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+li {
+    list-style: none;
+}
+
